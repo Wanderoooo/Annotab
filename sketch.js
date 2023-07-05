@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function setup() {
     canvas = createCanvas(windowWidth, windowHeight);
-    background(200);
+
   }
 
   button.addEventListener('click', () => {

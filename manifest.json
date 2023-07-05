@@ -2,13 +2,15 @@
   "manifest_version": 3,
   "name": "Annotab",
   "version": "1.0",
-  "permissions": [
-    "activeTab"
-  ],
   "browser_action": {
     "default_icon": "annotab_icon.png",
     "default_popup": "index.html"
   },
 
-  "web_accessible_resources": ["p5.js"]
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["p5.js", "sketch.js"]
+  }]
 }
