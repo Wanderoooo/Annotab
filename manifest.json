@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Annotab",
   "version": "1.0",
-  "browser_action": {
+  "action": {
     "default_icon": "annotab_icon.png",
     "default_popup": "index.html"
   },
